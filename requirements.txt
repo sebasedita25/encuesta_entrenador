@@ -1,0 +1,7 @@
+matplotlib
+streamlit
+pandas
+openpyxl
+gspread
+oauth2client
+msal
