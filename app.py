@@ -91,8 +91,8 @@ st.markdown("### ESCOGER QUÉ INFORMACIÓN LLENAR")
 # 📌 BLOQUE 2: EVENTOS NACIONALES
 with st.expander("📌 **Bloque 2: Eventos Nacionales**"):
     tipo_evento_nac = st.selectbox("Evento Nacional", [
-        "Juegos Nacionales",
-        "Campeonato Nacional"
+        "Juegos Nacionales 2023",
+        "Campeonato Nacional 2024"
     ], key="evento_nacional")
     col1, col2 = st.columns(2)
     with col1:
@@ -157,9 +157,10 @@ with st.expander("📌 **Bloque 2: Eventos Nacionales**"):
 # 📌 BLOQUE 3: EVENTOS INTERNACIONALES - CICLO OLÍMPICO
 with st.expander("📌 **Bloque 3: Eventos Internacionales - Ciclo Olímpico**"):
     tipo_evento_ciclo = st.selectbox("Evento Internacional", [
-        "Juegos Suramericanos",
-        "Juegos Panamericanos",
-        "Juegos Olímpicos"
+        "Juegos Suramericanos 2022",
+        "Juegos Panamericanos 2023",
+        "Juegos Centroamericanos 2023",
+        "Juegos Olímpicos 2024"
     ], key="evento_ciclo")
     col1, col2 = st.columns(2)
     with col1:
@@ -222,10 +223,10 @@ with st.expander("📌 **Bloque 3: Eventos Internacionales - Ciclo Olímpico**")
 # 📌 BLOQUE 4: EVENTOS INTERNACIONALES - CAMPEONATOS
 with st.expander("📌 **Bloque 4: Eventos Internacionales - Campeonatos**"):
     tipo_campeonato = st.selectbox("Campeonato Internacional", [
-        "Campeonato Suramericano",
-        "Campeonato Centroamericano",
-        "Campeonato Panamericano",
-        "Campeonato Mundial"
+        "Campeonato Suramericano 2024",
+        "Campeonato Centroamericano 2024",
+        "Campeonato Panamericano 2024",
+        "Campeonato Mundial 2024"
     ], key="evento_campeonato")
     col1, col2 = st.columns(2)
     with col1:
